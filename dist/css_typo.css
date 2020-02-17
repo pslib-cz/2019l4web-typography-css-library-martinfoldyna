@@ -183,18 +183,6 @@ article .wrapper {
 }
 
 
-
-article .text {
-
-}
-
-
-article ol {
-
-}
-
-
-
 /**********
     BUTTONS, LINK
 **********/
@@ -220,12 +208,12 @@ a {
     color: inherit;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 1.1px;
+    letter-spacing: .1em;
     text-decoration: none;
-    border-bottom: 0px;
     -webkit-transition: all .5s;
     transition: all .5s;
     border-bottom: 2px solid;
+    display: inline-block;
 }
 
 button:hover,
@@ -324,6 +312,7 @@ figure img {
     figure.medium {
         width: 80%;
     }
+
 }
 
 
