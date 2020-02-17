@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Typography Demo</title>
+    <link rel="stylesheet" href="dist/css_typo.css">
+    <style>
+        body > main, body > header {
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        body > header h1{
+            margin-bottom: .2em;
+        }
+
+        body > header h4{
+            margin: 0;
+            padding-bottom: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CSS_Typo</h1>
+        <h4 class="uppercase">CSS Typography Library</h4>
+        <hr>
+    </header>
+
+    <main>
+            <section id="headings">
+                <h2 class="uppercase">Headings</h2>
+                <h1>Heading First</h1>
+                <h2>Heading Second</h2>
+                <h3>Heading Third</h3>
+                <h4>Heading Fourth</h4>
+                <h5>Heading Fifth</h5>
+                <h6>Heading Sixth</h6>
+            </section>
+            <hr>
+            <section id="text">
+                <h2 class="uppercase">Text</h2>
+                <p>Lorem ipsum <b>bold</b> sit amet, consectetur <sub>adipisicing</sub> elit. A assumenda <strong>strong</strong> deleniti exercitationem fugiat, ipsam minima nesciunt m<sup>3</sup> officia qui quos ratione repellendus <i>latin</i> suscipit, <s>tempora</s> tempore velit? Est, illum.</p>
+                <pre>
+                    <code>
+//code:
+if (morning) {
+    return coffee;
+} else {
+    return beer;
+}
+                    </code>
+                </pre>
+            </section>
+            <hr>
+            <section id="lists">
+                <h2 class="uppercase">Lists</h2>
+                <h3>Unordered list</h3>
+                <ul>
+                    <li>Unordered list 1</li>
+                    <li>Unordered list 2
+                        <ul>
+                            <li>Unordered list 2.1</li>
+                            <li>Unordered list 2.2</li>
+                        </ul>
+                    </li>
+                    <li>Unordered list 3</li>
+                    <li>Unordered list 4</li>
+                </ul>
+                <h3>Ordered list</h3>
+                <ol>
+                    <li>Ordered list 1</li>
+                    <li>Ordered list 2
+                        <ol>
+                            <li>Ordered list 2.1</li>
+                            <li>Ordered list 2.2</li>
+                        </ol>
+                    </li>
+                    <li>Ordered list 3</li>
+                    <li>Ordered list 4</li>
+                </ol>
+                <h3>Description list</h3>
+                <dl>
+                    <dt>Description list item 1</dt>
+                    <dt>Description list item 2
+                        <dl>
+                            <dt>Description list item 2.1</dt>
+                            <dt>Description list item 2.2</dt>
+                        </dl>
+                    </dt>
+                    <dt>Description list item 3</dt>
+                    <dt>Description list item 4</dt>
+                </dl>
+            </section>
+            <hr>
+            <section id="blockquote">
+                <h2 class="uppercase">Blockquote</h2>
+                <blockquote cite="https://www.idnes.cz/hokej/extraliga/jaromir-jagr-rozhovor.A191118_514953_hokej_ald">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, eligendi soluta molestiae. Incidunt <strong>libero blanditiis</strong> accusamus quam enim laborum cupiditate molestias, fugit fuga quaerat tenetur et pariatur illum, consequuntur est, iste odio quos doloribus voluptatibus.</p>
+                    <footer>- Einstein</footer>
+                </blockquote>
+            </section>
+            <hr>
+            <section id="figures">
+                <h2 class="uppercase">Figure</h2>
+                <h4>Big Figure</h4>
+                <figure class="big">
+                    <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" alt="first release image">
+                    <figcaption>Nissan GT-R Alpha</figcaption>
+                </figure>
+                <h4>Medium Figure</h4>
+                <figure class="medium">
+                    <img src="https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80" alt="first release image">
+                    <figcaption>McLaren 720s</figcaption>
+                </figure>
+                <h4>Small Figure</h4>
+                <figure class="small">
+                    <img src="https://images.unsplash.com/photo-1549927681-0b673b8243ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" alt="first release image">
+                    <figcaption>Aston Martin DB11</figcaption>
+                </figure>
+            </section>
+            <hr>
+            <section id="articles">
+                <h2 class="uppercase">Articles</h2>
+                <article class="article">
+                    <header>
+                        <h2>First article</h2>
+                        <span class="user">Martin Foldyna</span>
+                        <span class="date">03 Únor 2020</span>
+                    </header>
+                    <main>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, nulla, optio. Adipisci, aliquam beatae consectetur excepturi illo ipsum mollitia natus nesciunt, numquam officia, quae quo ratione rerum temporibus ullam vel!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci beatae, consequuntur delectus deserunt dolorum error hic mollitia nam necessitatibus nemo nisi perferendis quia quidem recusandae repellat sapiente temporibus? Esse, necessitatibus?</p>
+                    </main>
+                </article>
+                <article class="article">
+                    <header>
+                        <h2>Second article</h2>
+                        <span class="user">Martin Foldyna</span>
+                        <span class="date">03 Únor 2020</span>
+                    </header>
+                    <main>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, nulla, optio. Adipisci, aliquam beatae consectetur excepturi illo ipsum mollitia natus nesciunt, numquam officia, quae quo ratione rerum temporibus ullam vel!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci beatae, consequuntur delectus deserunt dolorum error hic mollitia nam necessitatibus nemo nisi perferendis quia quidem recusandae repellat sapiente temporibus? Esse, necessitatibus?</p>
+                    </main>
+                </article>
+            </section>
+            <hr>
+            <section id="buttons">
+                <h2 class="uppercase">
+                    Buttons and link
+                </h2>
+                <button class="fill">Button filled</button>
+                <button class="outline">Button filled</button>
+                <a href="#">This is link</a>
+            </section>
+    </main>
+    <footer>
+        &copy; Martin Foldyna 2020
+    </footer>
+</body>
+</html>
